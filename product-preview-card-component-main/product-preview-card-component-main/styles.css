@@ -18,12 +18,19 @@ body{
     justify-content: center;
     height: 50vh;
     width: 35vw;
-    background-color: white;
     border-radius: 8px;
+    
+}
+
+.text-container{
+    background-color: white;
+    width: 25vw;
+    max-height: 50vh;
+    padding: 3vh;
 }
 
 .product-pic{
-    width: fit-content
+    height: auto;
     
 }
 
@@ -34,5 +41,19 @@ body{
 
 h1{
     font-family: 'Fraunces';
-    
+    overflow: hidden;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+}
+
+h2{
+    font-family: 'Fraunces';
+    font-weight: 700;
+    overflow: hidden;
+    color: hsl(158, 36%, 37%);
+    font-size: 35px;
 }
