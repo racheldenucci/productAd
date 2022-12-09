@@ -1,0 +1,38 @@
+body{
+    background-color: hsl(30, 38%, 92%);
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+    width: 35vw;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.product-pic{
+    width: fit-content
+    
+}
+
+.category{
+    letter-spacing: .5rem;
+    color: hsl(228, 12%, 48%);
+}
+
+h1{
+    font-family: 'Fraunces';
+    
+}
