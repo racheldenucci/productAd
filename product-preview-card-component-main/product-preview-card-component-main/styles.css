@@ -9,30 +9,30 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
     height: 100vh;
 }
 
 .container{
     display: flex;
     justify-content: center;
-    height: 50vh;
-    width: 35vw;
-    
+    max-height: 70vh;
+    max-width: 45vw;
+   
 }
 
 .text-container{
     background-color: white;
     width: 25vw;
-    max-height: 50vh;
+    max-height: fit-content;
     padding: 3vh;
-    border-radius: 0px 8px 8px 0px;
+    border-radius: 0% 2% 2% 0%;
     overflow: hidden;
 }
 
 .product-pic{
-    height: auto;
-    border-radius: 8px 0px 0px 8px;
+    max-height: 100%;
+    width: auto;
+    border-radius: 2% 0% 0% 2%;
 }
 
 .category{
@@ -74,9 +74,13 @@ h2{
 button{
     background-color: hsl(158, 36%, 37%);
     color: white;
-    width: 10vw;
-    border-radius: 8px;
-    padding: 8px;
-    border-color: hsl(158, 36%, 37%);
-    border-style: solid;
+    width:  20vw;
+    border-radius: 1vh;
+    padding: 2vh;
+    border: 0px;
 }
+
+button:hover{
+    background-color: hsl(159, 35%, 21%);
+}
+
